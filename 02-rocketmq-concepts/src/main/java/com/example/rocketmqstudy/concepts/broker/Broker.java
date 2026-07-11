@@ -70,7 +70,7 @@ public final class Broker {
     }
 
     /**
-     * 写入消息到 Topic 下的某个 Queue。
+     * 写入消息到 Topic 下的某个 Queue。（轮询写入多个 Queue）
      *
      * @param message 需要写入的消息。
      */

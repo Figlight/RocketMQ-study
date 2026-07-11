@@ -12,6 +12,7 @@
     <modules>
         <module>01-rocketmq-introduction</module>
         <module>02-rocketmq-concepts</module>
+        <module>04-rocketmq-quickstart</module>
     </modules>
 
     <properties>

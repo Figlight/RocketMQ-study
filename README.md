@@ -13,6 +13,7 @@
 - 按职责拆分包，例如 `model`、`service`、`consumer`、`producer`、`broker`、`nameserver`、`mq`、`support`。
 - 文件规模变大时，继续按业务关联拆分子包，避免单文件过长。
 - 每个类、方法、字段都补充注释，方便学习时直接阅读源码。
+- 每个章节 README 都要包含模块文件结构、流程图、章节介绍、示例说明、运行方式和注意点。
 
 ## 当前章节
 
@@ -21,6 +22,7 @@
 | `01-rocketmq-introduction` | RocketMQ 简介 | 用内存队列模拟 MQ 的异步、解耦、削峰思想 |
 | `02-rocketmq-concepts` | RocketMQ 概念 | 用内存模型模拟 Producer、Consumer、Broker、NameServer、Topic、Queue、Group |
 | `03-rocketmq-installation` | RocketMQ 安装 | RocketMQ 本地 Docker 安装与 Linux 压缩包安装流程 |
+| `04-rocketmq-quickstart` | RocketMQ 快速入门 | 使用真实 RocketMQ 客户端演示同步发送和 PushConsumer 消费 |
 
 ## 后续约定
 
