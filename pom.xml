@@ -13,6 +13,10 @@
         <module>01-rocketmq-introduction</module>
         <module>02-rocketmq-concepts</module>
         <module>04-rocketmq-quickstart</module>
+        <module>05-rocketmq-message-modes</module>
+        <module>06-rocketmq-retry-and-dlq</module>
+        <module>07-rocketmq-duplicate-consumption-and-idempotency</module>
+        <module>08-rocketmq-spring-boot-integration</module>
     </modules>
 
     <properties>

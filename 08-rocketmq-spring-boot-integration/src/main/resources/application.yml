@@ -1,0 +1,31 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: rocketmq-spring-boot-study
+
+rocketmq:
+  name-server: ${ROCKETMQ_NAMESRV_ADDR:127.0.0.1:9876}
+  producer:
+    group: ${ROCKETMQ_PRODUCER_GROUP:spring-boot-study-producer-group}
+    send-message-timeout: 3000
+    retry-times-when-send-failed: 2
+    retry-times-when-send-async-failed: 2
+    max-message-size: 4194304
+
+study:
+  rocketmq:
+    simple-topic: StudySpringBootSimpleTopic
+    order-topic: StudySpringBootOrderTopic
+    orderly-topic: StudySpringBootOrderlyTopic
+    tag-topic: StudySpringBootTagTopic
+    transaction-topic: StudySpringBootTransactionTopic
+    model-topic: StudySpringBootConsumerModelTopic
+    simple-consumer-group: spring-boot-simple-consumer-group
+    order-consumer-group: spring-boot-order-consumer-group
+    orderly-consumer-group: spring-boot-orderly-consumer-group
+    tag-consumer-group: spring-boot-tag-consumer-group
+    transaction-consumer-group: spring-boot-transaction-consumer-group
+    clustering-consumer-group: spring-boot-clustering-consumer-group
+    broadcasting-consumer-group: spring-boot-broadcasting-consumer-group

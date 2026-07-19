@@ -5,6 +5,16 @@
     <file url="file://$PROJECT_DIR$/01-rocketmq-introduction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-rocketmq-concepts/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-rocketmq-concepts/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-rocketmq-quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-rocketmq-quickstart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-rocketmq-message-modes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-rocketmq-message-modes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-rocketmq-retry-and-dlq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-rocketmq-retry-and-dlq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-rocketmq-duplicate-consumption-and-idempotency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-rocketmq-duplicate-consumption-and-idempotency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-rocketmq-spring-boot-integration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-rocketmq-spring-boot-integration/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

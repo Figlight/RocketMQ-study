@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="06-rocketmq-retry-and-dlq" />
+        <module name="08-rocketmq-spring-boot-integration" />
         <module name="02-rocketmq-concepts" />
         <module name="01-rocketmq-introduction" />
+        <module name="04-rocketmq-quickstart" />
+        <module name="07-rocketmq-duplicate-consumption-and-idempotency" />
+        <module name="05-rocketmq-message-modes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="22" />

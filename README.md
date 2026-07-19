@@ -23,6 +23,10 @@
 | `02-rocketmq-concepts` | RocketMQ 概念 | 用内存模型模拟 Producer、Consumer、Broker、NameServer、Topic、Queue、Group |
 | `03-rocketmq-installation` | RocketMQ 安装 | RocketMQ 本地 Docker 安装与 Linux 压缩包安装流程 |
 | `04-rocketmq-quickstart` | RocketMQ 快速入门 | 使用真实 RocketMQ 客户端演示同步发送和 PushConsumer 消费 |
+| `05-rocketmq-message-modes` | RocketMQ 消息模式 | 演示 Push/Pull、同步/异步/单向、延迟、顺序、批量、事务以及 Tag/Key |
+| `06-rocketmq-retry-and-dlq` | RocketMQ 重试机制与死信消息 | 演示发送重试、消费重试、异常分类、死信队列与死信消费 |
+| `07-rocketmq-duplicate-consumption-and-idempotency` | RocketMQ 消息重复消费问题 | 演示重复投递风险、稳定业务 Key 与消费幂等处理 |
+| `08-rocketmq-spring-boot-integration` | RocketMQ 集成 Spring Boot | 使用 RocketMQTemplate、注解监听器和 REST 接口演示 Spring Boot 消息收发 |
 
 ## 后续约定
 
